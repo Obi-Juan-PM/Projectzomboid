@@ -188,7 +188,7 @@ a:active {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    width: fit-content;
 }
 
 .ratingbild{
@@ -198,7 +198,15 @@ a:active {
 .textochbild{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+}
+
+.texten{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    padding-left: 10px;
 }
 
 .text{
@@ -216,9 +224,17 @@ a:active {
     justify-content: center;
 }
 
-#rubriken{
+.rubriken{
     border-width: 0px;
     border-bottom: 2px;
     border-style: solid;
     border-color: #464646;
+}
+
+.ratingbildmaps{
+    width: 10vw;
+    border-color: #464646;
+    border-width: 3px;
+    border-radius: 15%;
+    border-style: solid;
 }
